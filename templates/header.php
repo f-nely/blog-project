@@ -1,5 +1,5 @@
 <?php
-//require_once 'helpers/url.php';
+require_once 'helpers/url.php';
 require_once 'data/categories.php';
 require_once 'data/posts.php';
 ?>
