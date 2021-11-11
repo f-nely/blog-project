@@ -207,3 +207,37 @@ footer {
   color: #FFF;
   padding: 50px 0;
 }
+
+/* mobile */
+@media(max-width: 480px) {
+  /* home */
+  header {
+    width: 100%;
+  }
+  #logo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    width: 50px;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #title-container {
+    min-width: 100%;
+    margin-top: 20px;
+  }
+
+  #posts-contaner {
+    margin-top: 20px;
+  }
+
+  #post-box {
+    flex: 100% 1 0;
+    padding: 15px;
+    margin: 0;
+  }
+}
